@@ -1,0 +1,36 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title": "Welcome to the jungle",
+            "body": "abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc ",
+            "likes": 39
+        },
+        {
+            "id": 2,
+            "title": "22 Welcome to the jungle",
+            "body": "abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc ",
+            "likes": 39
+        },
+        {
+            "id": 3,
+            "title": "3333 Welcome to the jungle",
+            "body": "abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc ",
+            "likes": 39
+        },
+        {
+            "id": 4,
+            "title": "44444 Welcome to the jungle",
+            "body": "abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc abcc abc abc ",
+            "likes": 39
+        }
+    ],
+    "polls":[
+        {
+            "id": 1,
+            "question": "What kind of thecnology do you like?",
+            "answerA":"Vue",
+            "answerB":"react"
+        }
+    ]
+}
