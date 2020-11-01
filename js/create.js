@@ -10,14 +10,14 @@ const createPost = async (e) => {
         likes: 0
     }
 
-    alert(JSON.stringify(doc))
+    //alert(JSON.stringify(doc))
     await fetch('http://localhost:3000/posts',{
         method:'POST',
         body:JSON.stringify(doc),
         headers: {'Content-Type': 'application/json'}
 
     });
-    //window.location.replace('/index.html')
+    window.location.replace('/index.html')
 }
 
 form.addEventListener('submit',createPost);
